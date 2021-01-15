@@ -67,17 +67,24 @@ public class Abbigliamento extends Merce{
 	
 	
 	public double calclolaImporto() {
+		double var = 0;
+		
+		if (sesso == 'F') {
+			var = super.getPrezzoUnitario() * scontoDonna/100;
+		}
 		
 		if (sesso == 'M') {
-			//return prezzoUnitario = 
+			var = super.getPrezzoUnitario() * scontoUomo/100;
 		}
-		return 0;
+		
+		return var;
 		
 	}
-	
-	
-	
-	
+
+	@Override
+	public String toString() {
+		return "Abbigliamento [sesso=" + sesso + ", taglia=" + taglia + ", tipologia=" + tipologia + "]";
+	}
 	
 	
 }
