@@ -17,11 +17,15 @@ public class Conservati extends Alimentari{
 		Marca = marca;
 	}
 
+	public double calcolaImporto() {
+		double tot = super.getPrezzoUnitario() * super.peso;
+
+		return tot;
+	}
+
 	@Override
 	public String toString() {
 		return "Conservati [Marca=" + Marca + "]";
 	}
-	
-	
 
 }

@@ -26,7 +26,7 @@ public abstract class Merce {
 		this.prezzoUnitario = prezzoUnitario;
 	}
 	
-	abstract public double calclolaImporto();
+	abstract public double calcolaImporto();
 
 	@Override
 	public String toString() {

@@ -2,7 +2,7 @@
 public abstract class Alimentari extends Merce{
 
 	private String descrizione;
-	private double peso;
+	protected double peso;
 	private double calorieUnitarie;
 
 	public Alimentari(String codice, double prezzoUnitario, String descrizione, double peso, double calorieUnitarie) {
@@ -36,10 +36,7 @@ public abstract class Alimentari extends Merce{
 		this.calorieUnitarie = calorieUnitarie;
 	}
 	
-	public double calcolaImporto(){
-		return super.getPrezzoUnitario()*peso;
-		
-	}
+	public abstract double calcolaImporto();
 	
 	public double calcolaCalorie(){
 		return calorieUnitarie*peso;

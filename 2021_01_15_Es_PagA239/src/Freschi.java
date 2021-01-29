@@ -27,7 +27,7 @@ public class Freschi extends Alimentari{
 	}
 	
 	public double calcolaImporto(){
-		double totale = super.calcolaImporto();
+		double totale = super.getPrezzoUnitario()*peso;
 		
 		if (confezionato) {
 			totale += costoSacchetto;

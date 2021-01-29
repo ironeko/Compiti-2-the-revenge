@@ -66,7 +66,7 @@ public class Abbigliamento extends Merce{
 	}
 	
 	
-	public double calclolaImporto() {
+	public double calcolaImporto() {
 		double var = 0;
 		
 		if (sesso == 'F') {
