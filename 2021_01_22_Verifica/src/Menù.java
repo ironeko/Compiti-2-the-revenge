@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Menù {
+public class MenÃ¹ {
 	
 	public static void start() {
 		ArrayList<Aereo> voli = new ArrayList<Aereo>();
@@ -14,7 +14,7 @@ public class Menù {
 		int passLinea = 10; //costo passeggero aereo di linea
 		int passCharter = 20; //costo passeggero aereo Charter
 		int minimoPassLinea = 100; //costo minimo passeggeri aereo di linea per pagare
-		//facilmente implementabili con un input prima del menù
+		//facilmente implementabili con un input prima del menï¿½
 		
 		System.out.println("Buongiorno e benvanuto all'areoporto inter-planetario di San Giusto");
 		do {
