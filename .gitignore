@@ -1,1 +1,10 @@
 /.metadata/
+  
+# macOS 
+.DS_Store
+
+# Eclipse
+/.metadata/
+
+# Libraries
+/Libraries/
