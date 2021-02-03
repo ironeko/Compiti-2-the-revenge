@@ -16,7 +16,7 @@ public class Menù {
 		int minimoPassLinea = 100; //costo minimo passeggeri aereo di linea per pagare
 		//facilmente implementabili con un input prima del men�
 		
-		System.out.println("Buongiorno e benvanuto all'areoporto inter-planetario di San Giusto");
+		System.out.println("Buongiorno e benvenuto all'areoporto inter-planetario di San Giusto");
 		do {
 			choose=ConsoleInput.readInt("1) Inserire un nuovo volo\r\n" + "2) Eliminare un volo\r\n" + 
 					"3) Stampare tutti i voli in partenza per una certa destinazione\r\n" + 

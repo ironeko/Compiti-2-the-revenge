@@ -53,15 +53,7 @@ public class Menu {
                     break;
                 case 4://to string
                     for ( int i = 0; i < carrello.contenutoCarrello.size(); i++){
-                        if (carrello.contenutoCarrello.get(i) instanceof Freschi){
-                            System.out.println(((Freschi) carrello.contenutoCarrello.get(i)).toString());
-                        }
-                        if (carrello.contenutoCarrello.get(i) instanceof Conservati){
-                            System.out.println(((Conservati) carrello.contenutoCarrello.get(i)).toString());
-                        }
-                        if (carrello.contenutoCarrello.get(i) instanceof Abbigliamento){
-                            System.out.println(((Abbigliamento) carrello.contenutoCarrello.get(i)).toString());
-                        }
+                        System.out.println(carrello.contenutoCarrello.get(i).toString());
                     }
                     break;
                 case 5:
