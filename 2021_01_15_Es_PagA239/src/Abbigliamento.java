@@ -1,14 +1,14 @@
 
 public class Abbigliamento extends Merce{
 
-	private static double scontoUomo;
-	private static double scontoDonna;
-	private char sesso;
+	private static double scontoUomo = 10;
+	private static double scontoDonna = 10;
+	private String sesso;
 	private String taglia;
 	private String tipologia;
 	
 	
-	public Abbigliamento(String codice, double prezzoUnitario, char sesso, String taglia, String tipologia) {
+	public Abbigliamento(String codice, double prezzoUnitario, String sesso, String taglia, String tipologia) {
 		super(codice, prezzoUnitario);
 		this.sesso = sesso;
 		this.taglia = taglia;
@@ -36,12 +36,12 @@ public class Abbigliamento extends Merce{
 	}
 
 
-	public char getSesso() {
+	public String getSesso() {
 		return sesso;
 	}
 
 
-	public void setSesso(char sesso) {
+	public void setSesso(String sesso) {
 		this.sesso = sesso;
 	}
 
@@ -69,11 +69,11 @@ public class Abbigliamento extends Merce{
 	public double calcolaImporto() {
 		double var = 0;
 		
-		if (sesso == 'F') {
+		if (sesso == "F") {
 			var = super.getPrezzoUnitario() * scontoDonna/100;
 		}
 		
-		if (sesso == 'M') {
+		else if (sesso == "M") {
 			var = super.getPrezzoUnitario() * scontoUomo/100;
 		}
 		
@@ -83,8 +83,10 @@ public class Abbigliamento extends Merce{
 
 	@Override
 	public String toString() {
-		return "Abbigliamento [sesso=" + sesso + ", taglia=" + taglia + ", tipologia=" + tipologia + "]";
+		return "Abbigliamento{" +
+				"sesso=" + sesso +
+				", taglia='" + taglia + '\'' +
+				", tipologia='" + tipologia + '\'' +
+				"} " + super.toString();
 	}
-	
-	
 }

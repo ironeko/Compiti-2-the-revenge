@@ -1,11 +1,14 @@
 import java.util.ArrayList;
 
 public class Carrello {
+	final public int MAX_OGGETTI = 100;
 
 	ArrayList<Merce> contenutoCarrello = new ArrayList<Merce>();
 
-	public Carrello(ArrayList<Merce> contenutoCarrello) {
-		this.contenutoCarrello = contenutoCarrello;
+	public Carrello() {}
+
+	public int getMAX_OGGETTI() {
+		return MAX_OGGETTI;
 	}
 
 	public ArrayList<Merce> getContenutoCarrello() {
@@ -32,7 +35,7 @@ public class Carrello {
 
 	public 	double calcolaPrezzoTotale(){
 		double tot=0;
-		for ( int i =0;i < this.contenutoCarrello.size(); i++){
+		for ( int i = 0; i < this.contenutoCarrello.size(); i++){
 			tot += this.contenutoCarrello.get(i).calcolaImporto();
 		}
 		return tot;
@@ -42,7 +45,7 @@ public class Carrello {
 	@Override
 	public String toString() {
 		return "Carrello{" +
-				"contenutoCarrello=" + contenutoCarrello +
+				", contenutoCarrello=" + contenutoCarrello.toString()+
 				'}';
 	}
 }

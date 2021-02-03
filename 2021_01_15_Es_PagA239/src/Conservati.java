@@ -25,7 +25,8 @@ public class Conservati extends Alimentari{
 
 	@Override
 	public String toString() {
-		return "Conservati [Marca=" + Marca + "]";
+		return "Conservati{" +
+				"Marca='" + Marca + '\'' +
+				"} " + super.toString();
 	}
-
 }

@@ -38,7 +38,6 @@ public class Freschi extends Alimentari{
 
 	@Override
 	public String toString() {
-		return "Freschi [confezionato=" + confezionato + "]";
+		return "Freschi{} " + super.toString();
 	}
-	
 }

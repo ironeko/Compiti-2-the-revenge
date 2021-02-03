@@ -44,8 +44,7 @@ public abstract class Alimentari extends Merce{
 
 	@Override
 	public String toString() {
-		return "Alimentari [descrizione=" + descrizione + ", peso=" + peso + ", calorieUnitarie=" + calorieUnitarie
-				+ "]";
+		return " descrizione=" + descrizione + ", peso=" + peso + ", calorieUnitarie=" + calorieUnitarie;
 	}
 	
 }
