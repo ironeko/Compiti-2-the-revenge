@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         double a = ConsoleInput.readDouble("Inserire il coefficiente \"A\": ");
         double b = ConsoleInput.readDouble("Inserire il coefficiente \"B\": ");
-        double c = ConsoleInput.readDouble("Inserire il coefficiente \"C\": ");4
+        double c = ConsoleInput.readDouble("Inserire il coefficiente \"C\": ");
         double[] tot = eccezioni(a,b,c);
         System.out.println("Risultato 1 = " + tot[0]);
         System.out.println("Risultato 2 = " + tot[1]);
