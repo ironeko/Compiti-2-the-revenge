@@ -1,62 +1,55 @@
+import java.util.ArrayList;
 
 public class Mensola {
-	private Libro volumi[];
-	private static final int NUMERO_MASSIMO_VOLUMI = 15;
 	
-	
-	public Mensola(Libro[] volumi) {
-		super();
-		this.volumi = volumi;
-	}
-	
-	public Mensola(Mensola men) {
-		super();
-		this.volumi = men.volumi;
+
+	private ArrayList<Libro> volumi = new ArrayList<Libro>();
+
+	public Mensola() {
+		
 	}
 
-	public Libro getVolumi(int a) {
-		return volumi[a];
+	public Libro getVolumi(int pos) {
+		return volumi.get(pos);
 	}
 
-	public int setVolumi(Libro volume, int pos) {
-		int ret = -1;
-		if (pos > 0 && pos < this.NUMERO_MASSIMO_VOLUMI) {
-			ret=-2;
-			if (this.volumi[pos]==null) {
-				this.volumi[pos] = volume;
-				ret=0;
-			}
+	public void setVolumi(Libro volume) {
+		this.volumi.add(volume);
+	}
+	
+	public void setVolumi(Libro volume, int pos) {
+		this.volumi.add(pos, volume);;
+	}
+	
+	public boolean rimuoviVolume(int pos) {
+		
+		if(volumi.get(pos) != null) {
+			volumi.remove(pos);
+			return true;
 		}
-		return ret;
-	}
-	
-	public int rimuoviVolume(int pos) {
-		int ret = -1;
-		if (pos > 0 && pos < this.NUMERO_MASSIMO_VOLUMI) {
-			ret=-2;
-			if (this.volumi[pos]!=null) {
-				this.volumi[pos] = null;
-				ret=0;
-			}
+		else {
+			return false;
 		}
-		return ret;
-	}
-
-	public int getNUMERO_MASSIMO_VOLUMI() {
-		return NUMERO_MASSIMO_VOLUMI;
 	}
 	
 	public int getNumVolumi() {
-		int a = 0;
-		for (int i=0;i<this.NUMERO_MASSIMO_VOLUMI;i++) {
-			if (volumi[i]!= null) {
-				a++;
+		int cont = 0;
+		
+		for(int i=0; i<volumi.size(); i++) {
+			if(volumi.get(i) != null) {
+				cont++;
 			}
 		}
-		return a;
+		return cont;
 	}
 	
-	
-	
-	
+	public String toString(){
+		String str = "";
+		for(int i=0; i<volumi.size(); i++) {
+			if(volumi.get(i) != null) {
+				str += "Autore: " + volumi.get(i).getAutore() + " Titolo " + volumi.get(i).getTitolo() + "\n";
+			}
+		}
+		return str;
+	}
 }

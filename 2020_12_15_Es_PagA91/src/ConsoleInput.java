@@ -2,99 +2,78 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/*
-Classe per l'aquisizione si stringhe
-dallo standard input
-*/
-
 public class ConsoleInput {
-	/*
-	 * Costruire un oggetto di tipo BufferedReader 
-	 * sopra lo standard input (System.in)
-	 */
+	private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	
-	private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));	
-	
-	/*
-	 * Legge uuna riga e la converte in un valore intero:
-	 * la linea deve contenere un solo valore intero, eventualmente
-	 * proceduto dal segno, ma senza altri caratteri
-	 * @return valore intero digitato
-	 */
-	public static int readInt(String print){
-		System.out.println(print);
+	/*public ConsoleInput() {
+		reader = new BufferedReader(new InputStreamReader(System.in));
+	}*/
+	static int readInt(String messaggio) {
+		System.out.println(messaggio);
 		return readInt();
 	}
 	
-	public static int readInt(){
+	static int readInt(){
 		boolean ok = false;
-		int ret = 0;
+		int number = 0;
+		
 		while(!ok) {
 			try {
-				ret = Integer.parseInt(reader.readLine());
+				number = Integer.parseInt(reader.readLine());
 				ok = true;
 			}
-			catch(IOException exception){
-				System.out.println("Error 01 IOException is incorrect, retry");
+			catch(IOException e1){
+				System.out.println("non � un numero");
 			}
-			catch(NumberFormatException exception) {
-				System.out.println("Error 02 NumberFormatException is incorrect, retry");
+			catch (NumberFormatException e2) {
+				System.out.println("non � un numero");
 			}
 		}
-		return ret;
+		return number;
 	}
 	
-	/*
-	 * Legge uuna riga e la converte in un valore double:
-	 * la linea deve contenere un solo valore intero, eventualmente
-	 * proceduto dal segno, ma senza altri caratteri
-	 * @return valore double digitato
-	 */
-	public static double readDouble(String print){
-		System.out.println(print);
+	static double readDouble(String messaggio) {
+		System.out.println(messaggio);
 		return readDouble();
 	}
 	
-	public static double readDouble(){
+	static double readDouble(){
 		boolean ok = false;
-		double ret = 0;
+		double number = 0;
+		
 		while(!ok) {
 			try {
-				ret = Double.parseDouble(reader.readLine());
+				number = Double.parseDouble(reader.readLine());;
 				ok = true;
 			}
-			catch(IOException exception){
-				System.out.println("Error 01 IOException is incorrect, retry");
+			catch(IOException e1){
+				System.out.println("non � un numero");
 			}
-			catch(NumberFormatException exception) {
-				System.out.println("Error 02 NumberFormatException is incorrect, retry");
+			catch (NumberFormatException e2) {
+				System.out.println("non � un numero");
 			}
 		}
-		return ret;
+		return number;
 	}
 	
-	/*
-	 * legge una riga di testo in input
-	 * @return stringa digitata
-	 */
-	public static String readString(String print){
-		System.out.println(print);
+	static String readString(String messaggio) {
+		System.out.println(messaggio);
 		return readString();
 	}
 	
-	public static String readString(){
+	static String readString(){
 		boolean ok = false;
-		String ret = "";
+		String str = "";
+		
 		while(!ok) {
 			try {
-				ret = reader.readLine();
+				str = reader.readLine();
 				ok = true;
 			}
-			catch(IOException exception){
-				System.out.println("Error 01 IOException is incorrect, retry");
+			catch(IOException e1){
+				System.out.println("non � una stringa");
 			}
 		}
-		return ret;
+		return str;
 	}
-	
 }

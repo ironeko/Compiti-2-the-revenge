@@ -1,64 +1,31 @@
+import java.util.ArrayList;
 
 public class Scaffale {
-
-	private Mensola ripiani[];
-	private static final int NUM_RIPIANI = 15;
 	
-	public Scaffale(Mensola[] ripiani) {
-		super();
-		this.ripiani = ripiani;
-	}
+	private ArrayList<Mensola> ripiani = new  ArrayList<Mensola>();
 	
-	public Scaffale(Scaffale scaf) {
-		this.ripiani = scaf.ripiani;
-	}
-
-	public int setLibro(Libro lib, int ripiano, int posizione) {
-		int ret=0;
+	
+	public Scaffale() {
 		
-		if (ripiano < this.NUM_RIPIANI && ripiano >= 0 && posizione >= 0 && posizione <= ripiani[ripiano].getNUMERO_MASSIMO_VOLUMI()) {
-			ret = -1;
-			if (ripiani[ripiano].getVolumi(posizione)==null) {
-				ret =-2;
-				ripiani[ripiano].setVolumi(lib, posizione);
-			}
-		}
-		return ret;
 	}
-	
-	public int rimuoviLibro(int ripiano, int posizione) {
-		int a=0;
-		if ((ripiano<0)||(ripiano>=NUM_RIPIANI))
-			a= -1;
-	    if (ripiani[ripiano].rimuoviVolume(posizione)<0)
-	        a= -2;
-	    return a;
+
+	public Mensola getRipiano(int num) {
+		return ripiani.get(num);
 	}
-	
+
+	public void setRipiano(Mensola ripiano) {
+		this.ripiani.add(ripiano);
+	}
+
 	public int getNumRipiani() {
-		return NUM_RIPIANI;
+		return ripiani.size();
 	}
 	
-	public int getNumMaxLibri() {
-	   int ripiano, n=0;
-	   for (ripiano=0; ripiano<NUM_RIPIANI; ripiano++) {
-		   n += ripiani[ripiano].getNUMERO_MASSIMO_VOLUMI();
-	   }
-	   return n;
+	public int getNumLibri(int nMensola) {
+		return ripiani.get(nMensola).getNumVolumi();
 	}
 	
-	 public int getNumLibri() {
-		 int ripiano, n=0;
-		 for (ripiano=0; ripiano<NUM_RIPIANI; ripiano++) {
-			 n += ripiani[ripiano].getNumVolumi();
-		 }
-		 return n;
-	 }
-	 
-	 public int getNumLibri(int ripiano) {
-		 if ((ripiano<0)||(ripiano>=NUM_RIPIANI))
-			 return -1;
-		 return ripiani[ripiano].getNumVolumi();
-	 }
-	
+	public boolean rimuoviLibro(int nMensola, int nLibro) {
+		return ripiani.get(nMensola).rimuoviVolume(nLibro);
+	}
 }

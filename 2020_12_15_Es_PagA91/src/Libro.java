@@ -1,31 +1,22 @@
-
 public class Libro {
 	private String titolo;
 	private String autore;
-	private int numeroPagine;
-	private static double costoPagina = 0.05;
-	private final double COSTO_FISSO = 5.5;
+	private int numeroPag;
+	private double costoPagine = 0.05;
+	private final double costoFisso = 5.5;
 	
-	
-	public Libro(String titilo, String autore, int numeroPagine) {
-		super();
-		this.titolo = titilo;
+	public Libro(String titolo, String autore, int numeroPag) {
+		this.titolo = titolo;
 		this.autore = autore;
-		this.numeroPagine = numeroPagine;
-	}
-	
-	public Libro(Libro lib) {
-		this.titolo = lib.getTitolo();
-		this.autore = lib.getAutore();
-		this.numeroPagine = lib.getNumeroPagine();
+		this.numeroPag = numeroPag;
 	}
 
 	public String getTitolo() {
 		return titolo;
 	}
 
-	public void setTitolo(String titilo) {
-		this.titolo = titilo;
+	public void setTitolo(String titolo) {
+		this.titolo = titolo;
 	}
 
 	public String getAutore() {
@@ -36,25 +27,29 @@ public class Libro {
 		this.autore = autore;
 	}
 
-	public int getNumeroPagine() {
-		return numeroPagine;
+	public int getNumeroPag() {
+		return numeroPag;
 	}
 
-	public void setNumeroPagine(int numeroPagine) {
-		this.numeroPagine = numeroPagine;
+	public void setNumeroPag(int numeroPag) {
+		this.numeroPag = numeroPag;
+	}
+
+	public double getCostoPagine() {
+		return costoPagine;
+	}
+
+	public void setCostoPagine(double costoPagine) {
+		this.costoPagine = costoPagine;
+	}
+
+	public double getCostoFisso() {
+		return costoFisso;
 	}
 	
-	public double prezzo() {
-		return this.costoPagina*this.numeroPagine+this.COSTO_FISSO;
+	public String toString() {
+		String str = "titolo: " + titolo + " autore: " + autore + " numero Pagine: " + numeroPag+ " costo Pagine: " + costoPagine + " costo Fisso: " + costoFisso ;
+		return str;
 	}
-
-	public double getCostoPagina() {
-		return costoPagina;
-	}
-
-	public void setCostoPagina(double costoPagina) {
-		this.costoPagina = costoPagina;
-	}
-	
 	
 }
