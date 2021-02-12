@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="I LUCHITOSSSSS">
-      <change afterPath="$PROJECT_DIR$/2021_02_11 Test File 2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_02_11 Test File 2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_02_11 Test File 2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_02_11 Test File 2/src/Ironeko/Input/ConsoleInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_02_11 Test File 2/src/Ironeko/Input/FileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_02_11 Test File 2/src/Ironeko/Input/TextFile.java" afterDir="false" />
+    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="Vediamo che fa' il prof">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +26,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\m.filardi\IdeaProjects\Compiti-2-the-revenge" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m.filardi\IdeaProjects\Compiti-2-the-revenge\0000_00_00 Base" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612535500211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Vediamo che fa' il prof">
+      <created>1613044490135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613044490136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +94,7 @@
     <MESSAGE value="fa schifo" />
     <MESSAGE value="Filo inglese" />
     <MESSAGE value="I LUCHITOSSSSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="I LUCHITOSSSSS" />
+    <MESSAGE value="Vediamo che fa' il prof" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vediamo che fa' il prof" />
   </component>
 </project>
