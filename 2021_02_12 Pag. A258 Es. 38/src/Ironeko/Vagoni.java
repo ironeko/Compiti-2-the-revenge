@@ -1,4 +1,8 @@
-public abstract class Vagoni {
+package Ironeko;
+
+import java.io.Serializable;
+
+public abstract class Vagoni implements Serializable {
     String codice;
     double tara;
     String costruttore;
