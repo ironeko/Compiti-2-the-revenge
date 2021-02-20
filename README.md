@@ -1,15 +1,13 @@
 <h1>Compiti a casa</h1>
 
-
-Uno studente che svolge un compito di geometria
-I compiti a casa sono compiti assegnati agli studenti da completare al di fuori della classe. I compiti più comuni possono includere esercizi di lettura, scrittura, matematica, informazioni da ripassare prima di un test o altre attività.
+I compiti più comuni possono includere esercizi di lettura, scrittura, matematica, informazioni da ripassare prima di un test o altre attività.
 
 L'efficacia dei compiti a casa è dibattuta. In generale, i compiti a casa non sembrano migliorare il rendimento scolastico dei bambini delle scuole elementari, mentre possono migliorare le capacità accademiche tra gli studenti delle scuole medie e superiori, in particolare di quelli con risultati inferiori. D'altro canto, i compiti creano stress agli studenti e ai loro genitori, e riducono il tempo che gli studenti possono trascorrere all'aperto, a giocare, a praticare sport, a lavorare, a dormire o altro.
 
 
 
 <h2>Obiettivi</h2>
-***
+
 
 Gli obiettivi di base dell'assegnazione dei compiti agli studenti sono gli stessi della scuola in generale: aumentare la conoscenza e migliorare le capacità e le abilità degli studenti, prepararli per lezioni imminenti (o complesse o difficili), estendere ciò che sanno facendoli applicare a nuove situazioni, o integrare le loro abilità applicando competenze diverse a un singolo compito. I compiti offrono anche ai genitori l'opportunità di partecipare all'istruzione dei propri figli. I compiti sono generalmente progettati per rafforzare ciò che gli studenti hanno già imparato in classe.
 
@@ -25,11 +23,11 @@ Gli scopi per l'assegnazione dei compiti a casa sono, in sintesi:
 1. punizione
 
 <h2>Effetti</h2>
-***
+
 
 <h4>Prestazione scolastica</h4>
 
-Una studentessa della Tanzania intenta a svolgere i compiti su uno scuolabus
+
 La ricerca sui compiti a casa risale ai primi anni del 1900. Tuttavia, non esiste consenso sulla loro efficacia generale. I risultati degli studi sui compiti a casa variano in base a molteplici fattori, come il gruppo di età dei soggetti studiati e la misura del rendimento scolastico.
 
 Tra gli adolescenti, gli studenti che dedicano più tempo ai compiti generalmente hanno voti più alti e punteggi nei test leggermente più alti rispetto agli studenti che dedicano ad essi meno tempo. Una quantità molto elevata di compiti a casa causa un peggioramento del rendimento scolastico degli studenti, anche tra gli studenti più grandi. Gli studenti a cui vengono assegnati i compiti nelle scuole medie e superiori ottengono un punteggio leggermente migliore nei test standardizzati, ma gli studenti che hanno dai 60 ai 90 minuti di compiti al giorno alle scuole medie o più di due ore alle superiori ottengono risultati peggiori.
