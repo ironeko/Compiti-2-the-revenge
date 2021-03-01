@@ -39,10 +39,8 @@ public class Treno implements Serializable {
         return treno;
     }
 
-    public void setTreno(Treno newTreno) {
-        for (int i=0; i<newTreno.getSize();i++){
-            aggiungiVagone(newTreno.getVagone(i));
-        }
+    public void setTreno(ArrayList<Vagoni> treno) {
+        this.treno = treno;
     }
 
     public double getPesoPasseggero() {

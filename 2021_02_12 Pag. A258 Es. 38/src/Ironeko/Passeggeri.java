@@ -11,6 +11,7 @@ public class Passeggeri extends Vagoni{
         this.postiLiberi = postiLiberi;
         this.postiOccupati = postiOccupati;
     }
+    public Passeggeri(){};
 
     public String getClasse() {
         return classe;

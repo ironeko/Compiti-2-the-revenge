@@ -14,6 +14,7 @@ public abstract class Vagoni implements Serializable {
         this.costruttore = costruttore;
         this.anno = anno;
     }
+    public Vagoni(){};
 
     public String getCodice() {
         return codice;

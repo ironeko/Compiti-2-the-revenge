@@ -1,13 +1,14 @@
 package Ironeko;
+import Ironeko.Input.file.*;
 import Ironeko.Input.*;
 
 import java.io.File;
 
-public class Menu {
+public class Menu{
     private static Treno treno;
-    private static final File FILE = new File("file.bin");
+    private static final File FILE = new File("file.txt");
 
-    private static final FileInterface FILE_INTERFACE = new BinaryFile();
+    private static final FileInterface FILE_INTERFACE = new TextFile();
 
     public static void start() {
         importFile();

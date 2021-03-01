@@ -12,6 +12,8 @@ public class Merci extends Vagoni{
         Peso = peso;
     }
 
+    public Merci(){};
+
     public double getVolume() {
         return volume;
     }
