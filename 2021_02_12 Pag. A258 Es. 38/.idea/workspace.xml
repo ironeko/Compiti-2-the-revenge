@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f3fec9a-ab92-4ce9-8750-89bc8208021f" name="Default Changelist" comment="Il textfile sgravato esagerato" />
+    <list default="true" id="0f3fec9a-ab92-4ce9-8750-89bc8208021f" name="Default Changelist" comment="Il textfile sgravato esagerato">
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/out/production/2021_03_03 Es Pila senza Iteratori/Ironeko/Merci.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/out/production/2021_03_03 Es Pila senza Iteratori/Ironeko/Passeggeri.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/out/production/2021_03_03 Es Pila senza Iteratori/Ironeko/Treno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/out/production/2021_03_03 Es Pila senza Iteratori/Ironeko/Vagoni.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/ConsoleInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/file/BinaryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/file/FileInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/file/InvalidExtensionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/file/TextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/file/XmlFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/text/InvalidInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/text/JShellEvalWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/text/MissingSupplierException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/text/SupplierTypeMismatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/text/TextParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Input/text/TextSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Merci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Passeggeri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Pila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Treno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021_03_03 Es Pila senza Iteratori/src/Ironeko/Vagoni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614617916917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Il textfile sgravato esagerato">
+      <created>1614618068796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614618068797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,16 +136,5 @@
     <MESSAGE value="Gurankio in estremis" />
     <MESSAGE value="Il textfile sgravato esagerato" />
     <option name="LAST_COMMIT_MESSAGE" value="Il textfile sgravato esagerato" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Ironeko/Menu.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
