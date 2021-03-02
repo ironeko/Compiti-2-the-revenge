@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="Pila alcalina" />
+    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="il pop del capodanno a napoli" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614621547517</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="il pop del capodanno a napoli">
+      <created>1614685349679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614685349679</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +108,7 @@
     <MESSAGE value="I LUCHITOSSSSS" />
     <MESSAGE value="Vediamo che fa' il prof" />
     <MESSAGE value="Pila alcalina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pila alcalina" />
+    <MESSAGE value="il pop del capodanno a napoli" />
+    <option name="LAST_COMMIT_MESSAGE" value="il pop del capodanno a napoli" />
   </component>
 </project>
