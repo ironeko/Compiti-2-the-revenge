@@ -6,8 +6,7 @@ public class Dot {
 	//costruttore
 	public Dot(double x,double y) {
 		this.x=x;
-		this.y=y;
-		
+		this.y=y;	
 	}
 	
 	//get & set
