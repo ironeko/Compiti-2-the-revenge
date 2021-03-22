@@ -1,8 +1,9 @@
 package Ironeko;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class Mail {
+public class Mail implements Serializable {
     private String mittente;
     private String oggetto;
     private Timestamp data;

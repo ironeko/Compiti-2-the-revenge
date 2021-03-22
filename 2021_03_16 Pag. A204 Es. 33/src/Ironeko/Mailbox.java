@@ -1,8 +1,9 @@
 package Ironeko;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Mailbox {
+public class Mailbox implements Serializable {
     private ArrayList<Mail> mails= new ArrayList<>();
 
     public Mailbox() {}
@@ -29,8 +30,10 @@ public class Mailbox {
 
     @Override
     public String toString() {
-        return "Mailbox{" +
-                "mails=" + mails +
-                '}';
+        String test= "Mils:\n";
+        for (int i=0; i< mails.size(); i++){
+            test += i + ") " + mails.get(i).toString() + "\n";
+        }
+        return test;
     }
 }

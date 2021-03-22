@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="Coda fratello orso" />
+    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="Streaming ad alta quota">
+      <change afterPath="$PROJECT_DIR$/2021_03_16 Test JavaFX/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021_03_16 Test JavaFX/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021_03_16 Test JavaFX/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021_03_16 Test JavaFX/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021_03_16 Test JavaFX/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_16 Test JavaFX/out/production/2021_03_16 Test JavaFX/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_16 Test JavaFX/out/production/2021_03_16 Test JavaFX/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_16 Test JavaFX/out/production/2021_03_16 Test JavaFX/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_16 Test JavaFX/out/production/2021_03_16 Test JavaFX/sample/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615022608768</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Streaming ad alta quota">
+      <created>1615039394166</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615039394166</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +147,7 @@
     <MESSAGE value="Pila alcalina" />
     <MESSAGE value="il pop del capodanno a napoli" />
     <MESSAGE value="Coda fratello orso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coda fratello orso" />
+    <MESSAGE value="Streaming ad alta quota" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streaming ad alta quota" />
   </component>
 </project>
