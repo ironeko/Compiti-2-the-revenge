@@ -3,6 +3,7 @@ package Ironeko;
 import Ironeko.WriteOnFile;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Menu {
 
@@ -11,33 +12,84 @@ public class Menu {
     private static Navy ships= new Navy();
 
     public static void start (){
-
-        AircraftCarriers test = new AircraftCarriers("gino","trattorino", "er meglio che c'e",69, 420,90);
+        importFile();
+        //AircraftCarriers test = new AircraftCarriers("gino","trattorino", "er meglio che c'e",69, 420,90);
+        //Destroyers test2 = new Destroyers("franco","no","il piu stupido del branco",32.2,90.001,0,1000);
         //ships.addShip(test);
+        //ships.addShip(test2);
         System.out.println(ships.toString());
-        saveFile();
+        //saveFile();
 
     }
 
-    private static void importFile() {
+    private static void importFile() {//e moh
+        ArrayList<String> out = (ArrayList<String>) WriteOnFile.fileRead(FILE_NAME);
 
-    }
+        if (out!=null){
+            for (int i =0; i< out.size(); i++){
+                if (out.get(i).equals("AircraftCarriers")) {
+                    ArrayList<String> app = new ArrayList<>(6);
+                    i++;
+                    for (; i< 7;i++){
+                        app.add(out.get(i));
+                    }
+                    loadAircraft(app);
+                    app.clear();
+                }
+                else if(out.get(i).equals("Destroyers")){
 
-    private static void saveFile(){
-        ArrayList<Ships> navy = ships.getNavy();
-        for (Ships ship: navy) {
-            if (ship instanceof Destroyers){
-
+                }
+                else{
+                    //TODO: avanti fino a quando unn'esce uno dei 2
+                }
             }
-            else{
 
-            }
-            WriteOnFile.fileWrite(FILE_NAME,"\n");
         }
 
     }
 
+    private static void saveFile(){//forse va
+        WriteOnFile.emptyFile(FILE_NAME);
+        ArrayList<Ships> navy = ships.getNavy();
+        for (Ships ship: navy) {
+            if (ship instanceof Destroyers){
+                saveDestroyer((Destroyers) ship);
+            }
+            else{
+                saveAircraft((AircraftCarriers) ship);
+            }
+            WriteOnFile.fileWrite(FILE_NAME, "\n");
+        }
 
+    }
+
+    private static void saveAircraft(AircraftCarriers obj){
+        WriteOnFile.fileWrite(FILE_NAME, "AircraftCarriers");
+        WriteOnFile.fileWrite(FILE_NAME, obj.getName());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getCode());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getInformation());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getHeavy());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getLife());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getAircraft());
+    }
+
+    private static void saveDestroyer(Destroyers obj){
+        WriteOnFile.fileWrite(FILE_NAME, "Destroyers");
+        WriteOnFile.fileWrite(FILE_NAME, obj.getName());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getCode());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getInformation());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getHeavy());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getLife());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getRocketLauncher());
+        WriteOnFile.fileWrite(FILE_NAME, obj.getSubmachineGun());
+    }
+
+    private static void loadAircraft(ArrayList<String> list){
+        System.out.println(list.toString());
+        AircraftCarriers app = new AircraftCarriers(list.get(0), list.get(1),list.get(2), Double.parseDouble(list.get(3)) ,Double.parseDouble(list.get(4)), Integer.parseInt(list.get(5)));
+        ships.addShip(app);
+
+    }
 
 }
 

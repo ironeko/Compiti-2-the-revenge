@@ -1,6 +1,7 @@
 package Ironeko;
 
 import java.io.*;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class WriteOnFile {
@@ -14,10 +15,14 @@ public class WriteOnFile {
         }
     }
     
-    public static <T> void fileWrite(String fileName, Class<T> line) {
+    public static void fileWrite(String fileName, Object obj) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
-            writer.write(String.valueOf(line));
+            if (obj instanceof String){ writer.write((String) obj);}
+            else{
+                writer.write(obj.toString());
+            }
+            writer.write("\n");
             writer.close();
         } catch (Exception exception) {
             System.out.println("IO Error");
@@ -34,6 +39,17 @@ public class WriteOnFile {
         }
         return null;
     }
+
+    public static List<String> fileRead(String filename){
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(filename));
+            return reader.lines().collect(Collectors.toList());
+        }catch(Exception exception){
+            System.out.println("File could not be found or could not be read");
+        }
+        return null;
+    }
+
 
     public static int fileLineCount(String filename){
         try{

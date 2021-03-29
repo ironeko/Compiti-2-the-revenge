@@ -1,43 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="menu semplice semplice">
-      <change afterPath="$PROJECT_DIR$/#000 Template/#000 Template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#000 Template/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#000 Template/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#000 Template/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#000 Template/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/2021_03_06 Aereodromo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616614142688.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616614732680.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616614816620.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616615098835.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616615251516.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616616173788.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616616284191.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616616441739.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616616595241.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616617101761.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616617283912.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616662219628.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616662308074.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616662435255.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616662713629.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616662745020.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/logs/1616662818962.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/src/ironeko/input/file/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021_03_24 Aereodromo Persistant Test/src/ironeko/input/file/Persistent.java" afterDir="false" />
+    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="aahahahahahahahah no">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/0000_00_00 Base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/src/Ironeko/Input/FileBinario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/src/Ironeko/Input/ModoErratoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/src/Ironeko/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/src/Ironeko/Studente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0000_00_00 Base/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/WriteOnFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/WriteOnFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616428661382</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="aahahahahahahahah no">
+      <created>1617037060454</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617037060454</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +158,7 @@
     <MESSAGE value="Coda fratello orso" />
     <MESSAGE value="Streaming ad alta quota" />
     <MESSAGE value="menu semplice semplice" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu semplice semplice" />
+    <MESSAGE value="aahahahahahahahah no" />
+    <option name="LAST_COMMIT_MESSAGE" value="aahahahahahahahah no" />
   </component>
 </project>
