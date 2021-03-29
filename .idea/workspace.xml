@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="aahahahahahahahah pausa">
+    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="funziona">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/AircraftCarriers.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/ironeko/AircraftCarriers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Destroyers.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/ironeko/Destroyers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/ironeko/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Navy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/ironeko/Navy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Ships.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/ironeko/input/Ships.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/WriteOnFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/ironeko/input/file/WriteOnFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617040388196</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="funziona">
+      <created>1617044050819</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617044050819</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +178,7 @@
     <MESSAGE value="menu semplice semplice" />
     <MESSAGE value="aahahahahahahahah no" />
     <MESSAGE value="aahahahahahahahah pausa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aahahahahahahahah pausa" />
+    <MESSAGE value="funziona" />
+    <option name="LAST_COMMIT_MESSAGE" value="funziona" />
   </component>
 </project>

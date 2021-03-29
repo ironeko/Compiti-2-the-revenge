@@ -1,7 +1,5 @@
-package Ironeko;
+package ironeko;
 
-import java.awt.*;
-import java.io.Serial;
 import java.io.Serializable;
 
 public abstract class Ships implements Serializable {

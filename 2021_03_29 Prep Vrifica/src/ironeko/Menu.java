@@ -1,12 +1,10 @@
-package Ironeko;
+package ironeko;
 
-import Ironeko.WriteOnFile;
+import ironeko.input.file.WriteOnFile;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Menu {
-
     private static final String FILE_NAME = "file.txt";
 
     private static Navy ships = new Navy();
@@ -51,7 +49,7 @@ public class Menu {
         }
     }
 
-    private static void saveFile() {//forse va
+    private static void saveFile() {
         WriteOnFile.emptyFile(FILE_NAME);
         ArrayList<Ships> navy = ships.getNavy();
         for (Ships ship : navy) {
@@ -95,25 +93,4 @@ public class Menu {
     }
 }
 
-/*
-    private static final File file = new File("file.bin");
-    private static final FileInterface FILE_INTERFACE = new BinaryFile();*/
-
-/*
-    private static void importFile(){
-        try{
-            ships = FILE_INTERFACE.load(file, Navy.class);
-        }
-        catch(Exception e){
-            ships =  new Navy();
-        }
-    }
-
-    private static void saveFile(){
-        try {
-            FILE_INTERFACE.save(ships,file);
-        }
-        catch(Exception e){
-            System.out.println(e.getMessage());
-        }
-    }*/
+// per il JavaDoc /**enter

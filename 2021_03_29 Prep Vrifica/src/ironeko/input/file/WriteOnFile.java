@@ -1,4 +1,4 @@
-package Ironeko;
+package ironeko.input.file;
 
 import java.io.*;
 import java.util.List;
