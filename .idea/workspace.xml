@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="aahahahahahahahah no">
+    <list default="true" id="f1a68335-140e-4fd8-8605-4c8c94bfdc4d" name="Default Changelist" comment="aahahahahahahahah pausa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/WriteOnFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021_03_29 Prep Vrifica/src/Ironeko/WriteOnFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617037060454</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="aahahahahahahahah pausa">
+      <created>1617040388196</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617040388196</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +165,7 @@
     <MESSAGE value="Streaming ad alta quota" />
     <MESSAGE value="menu semplice semplice" />
     <MESSAGE value="aahahahahahahahah no" />
-    <option name="LAST_COMMIT_MESSAGE" value="aahahahahahahahah no" />
+    <MESSAGE value="aahahahahahahahah pausa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aahahahahahahahah pausa" />
   </component>
 </project>
