@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="100" minWidth="200" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <StackPane fx:id="stckpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="600.0" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" StackPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="numcolum" prefWidth="83.0" text="Tessera" />
+                <TableColumn fx:id="surcolum" prefWidth="108.66668701171875" text="Cognome" />
+                  <TableColumn fx:id="namecolum" prefWidth="103.33331298828125" text="Nome" />
+                  <TableColumn fx:id="disciplinecolum" prefWidth="96.6666259765625" text="Disciplina" />
+                  <TableColumn fx:id="birthcolum" prefWidth="104.0" text="Nascita" />
+                  <TableColumn fx:id="deadlinecolum" minWidth="0.0" prefWidth="104.0" text="Scadenza" />
+              </columns>
+            </TableView>
+         </children>
+      </StackPane>
+      <HBox fx:id="hbox" alignment="CENTER" layoutY="331.0" prefHeight="70.0" prefWidth="600.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <TextField fx:id="textsurname" promptText="Cognome" />
+            <TextField fx:id="textname" promptText="Nome" />
+            <TextField fx:id="textdiscipline" promptText="Disciplina" />
+            <DatePicker fx:id="birthdate" prefHeight="21.0" prefWidth="123.0" promptText="Nacita" />
+            <Button fx:id="addbutton" mnemonicParsing="false" prefHeight="22.0" prefWidth="107.0" text="Aggiungi" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
